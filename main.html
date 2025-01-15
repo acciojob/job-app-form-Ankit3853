@@ -7,6 +7,65 @@
 </head>
 
 <body>
+	<form action="/button" method="post">
+		
+		<div>
+			<label for="name">Name<span>*</span></label>
+			<input id="name " name="name" type="text" placeholder="Name" required="*">
+		</div>
+		<br>
+		
+		<div>
+			<label for="email">Email<span>*</span></label>
+			<input id="email " name="email" type="email" placeholder="E-mail" required>
+		</div>
+		<br>
+		
+		<div>
+			<label for="gender">Gender<span>*</span></label>
+			<input id="gender_m" name="gender" type="radio" required>M
+			<input id="gender_f" name="gender" type="radio" required>F
+		</div>
+		<br>
+		
+		<div>
+			<label for="laptop">Laptop Brands</label>
+			<select id="laptop" name="laptop">
+				<option value="">--Please choose laptop brand--</option>
+				<option value="apple">Apple</option>
+				<option value="asus">Asus</option>
+				<option value="hp">HP</option>
+			</select>
+		</div>
+		<br>
+		
+		<div>
+			<label for="age">Age<span>*</span></label>
+			<input id="age" name="age" type="number" min="18" max="70" required>
+		</div>
+		<br>
+		
+		<div>
+			<label for="dob">DOB<span>*</span></label>
+			<input id="dob" name="dob" type="date" required>
+		</div>
+		<br>
+		
+		<div>
+			<label for="password">Password<span>*</span></label>
+			<input id="password" name="password" type="password" required>
+		</div>
+		<br>
+		
+		<div>
+			<label for="url">Portfolio Url</label>
+			<input id="url" name="url" type="url" required>
+		</div>
+		<br>
+		<div>
+			<button>Button</button>
+		</div>
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
